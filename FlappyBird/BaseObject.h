@@ -15,9 +15,9 @@ public:
   void Free();
   void SetRect(const int& x, const int& y) {rect_.x = x, rect_.y = y;};
   SDL_Rect GetRect() const {return rect_;}
-  SDL_Texture* GetObject() {return p_object_;}
+  SDL_Texture* GetObject() {return pObject_;}
 protected:
-  SDL_Texture* p_object_;
+  SDL_Texture* pObject_;
   SDL_Rect rect_;
 };
 

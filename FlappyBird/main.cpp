@@ -15,6 +15,8 @@ BaseObject gGround;
 TTF_Font* gFontText = NULL;
 TTF_Font* gFontMenu = NULL;
 
+Mix_Music* gMusic = NULL; 
+
 bool InitData()
 {
     BOOL bSucess = true;
@@ -24,7 +26,7 @@ bool InitData()
 
     SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
 
-    gWindow = SDL_CreateWindow("PlappyBird - cuatao", 
+    gWindow = SDL_CreateWindow("PlappyBird - Kim", 
                                 SDL_WINDOWPOS_UNDEFINED,
                                 SDL_WINDOWPOS_UNDEFINED,
                                 SCREEN_WIDTH, SCREEN_HEIGHT,
@@ -118,6 +120,13 @@ int main(int argc, char* argv[])
     }
     gGround.SetRect(0, GROUND_MAP);
 
+        //Load music
+        gMusic = Mix_LoadMUS("21_sound_effects_and_music/beat.wav");         //link nhac.
+    if (Mix_PlayingMusic() == 0)
+    {
+        //Play the music
+        Mix_PlayMusic(gMusic, -1);
+    }
 again_label:
 
     TextObject text_count_;
@@ -192,6 +201,7 @@ again_label:
         text_count_.RenderText(gScreen, SCREEN_WIDTH*0.5, 2);
 
         gGround.Render(gScreen);
+
         SDL_RenderPresent(gScreen);
 
         // Make menu game over

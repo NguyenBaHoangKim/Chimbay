@@ -18,11 +18,11 @@ void PlayerObject::HandleInputAction(SDL_Event events, SDL_Renderer* screen)
   {
     switch( events.key.keysym.sym )
     {
-    case SDLK_UP:
+    case SDLK_SPACE :
       {
         if (is_falling_ == false)
         {
-            y_val_ = -8;
+            y_val_ = -7;
         }
       }
     }
@@ -31,7 +31,7 @@ void PlayerObject::HandleInputAction(SDL_Event events, SDL_Renderer* screen)
   {
     switch( events.key.keysym.sym )
     {
-    case SDLK_UP:
+    case SDLK_SPACE :
         {
             y_val_ = 5;
         }
