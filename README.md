@@ -17,7 +17,7 @@ Cốt truyện: Mục tiêu của trò chơi là điều khiển một chú chim
 
 Ý tưởng: Do Nguyễn Hà Đông truyền cảm hứng và dựa trên những game sinh tồn tuổi thơ Endless như Dino, Flappy Bird, Temple run,...
 
-Link Youtube: 
+Link Youtube: https://www.youtube.com/watch?v=ueqqcS59vPA
 
 III, Các chức năng của trò chơi
 
