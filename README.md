@@ -1,4 +1,4 @@
-Flappy Bird
+            Flappy Bird
 
     I, Hướng dẫn cài đặt và chạy game
 
