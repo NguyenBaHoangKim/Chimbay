@@ -1,17 +1,17 @@
 Flappy Bird
 
-I, Hướng dẫn cài đặt và chạy game
+    I, Hướng dẫn cài đặt và chạy game
 
-B1: Tải project về
+  B1: Tải project về
 Cách 1: Trên Github, chọn Code => Download ZIP
 
 Cách 2: Mở terminal tại thư mục muốn lưu project, sử dụng lệnh git init để khởi tạo Git, sau đó dùng lệnh git clone https://github.com/NguyenBaHoangKim/Chimbay để clone project về máy
 
-B2: Hoàn tất chạy game
+  B2: Hoàn tất chạy game
 
 Giờ chỉ cần nhấn đúp vào file .exe trong file Debug để chạy game
 
-II, Mô tả chung về trò chơi
+    II, Mô tả chung về trò chơi
 
 Thể loại: Sinh tồn, Nhập vai, Tính điểm theo thời gian thực
 
@@ -21,7 +21,7 @@ Cốt truyện: Mục tiêu của trò chơi là điều khiển một chú chim
 
 Link Youtube: https://www.youtube.com/watch?v=ueqqcS59vPA
 
-III, Các chức năng của trò chơi
+    III, Các chức năng của trò chơi
 
 Menu đơn giản
 
@@ -31,7 +31,7 @@ Có bộ tính điểm
 
 Có theme song và một số sound effect
 
-IV, Các kỹ thuật lập trình được sử dụng
+    IV, Các kỹ thuật lập trình được sử dụng
 
 Sử dụng thư viện đồ họa SDL2
 
@@ -41,7 +41,7 @@ Con trỏ, cấp phát động
 
 Sử dụng thuật toán xử lý va chạm AABB 
 
-V, Kết luận
+    V, Kết luận
 
 Do là dự án game đầu tay nên không thể tránh khỏi các thiếu xót, mong rằng sẽ nhận được góp ý từ mọi người. Mình sẽ update các bản vá lỗi để game được hoàn thiện hơn.
 
